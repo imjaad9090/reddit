@@ -55,17 +55,17 @@ signup = () => {
         return (
             <View style={styles.container}>
                 <TextInput 
-					placeholder="Full Name" 
+		    placeholder="Full Name" 
                     value={this.state.name}
                     onChangeText={name => this.setState({ name }) } />
 
                 <TextInput 
-					placeholder="Email" 
+		    placeholder="Email" 
                     value={this.state.email}
                     onChangeText={email => this.setState({ email }) } />
 
                 <TextInput 
-					placeholder="Password" secureTextEntry 
+		    placeholder="Password" secureTextEntry 
                     value={this.state.password}
                     onChangeText={password => this.setState({ password }) } />
 
